@@ -1,10 +1,10 @@
 ---
 section01_patch: yes
 section02_patch: yes
-section09_patch: yes
+section09_patch: no
 section17_patch: yes
-section18_patch: yes
-section19_patch: yes
+section18_patch: no
+section19_patch: no
 
 min_ansible_version: "2.6"
 
@@ -169,14 +169,14 @@ rule_2_3_11_10: true
 rule_2_3_13_1: true
 rule_2_3_15_1: true
 rule_2_3_15_2: true
-rule_2_3_17_1: true
-rule_2_3_17_2: true
-rule_2_3_17_3: true
-rule_2_3_17_4: true
-rule_2_3_17_5: true
-rule_2_3_17_6: true
-rule_2_3_17_7: true
-rule_2_3_17_8: true
+rule_2_3_17_1: false
+rule_2_3_17_2: false
+rule_2_3_17_3: false
+rule_2_3_17_4: false
+rule_2_3_17_5: false
+rule_2_3_17_6: false
+rule_2_3_17_7: false
+rule_2_3_17_8: false
 
 # section17
 rule_17_1_1: true
